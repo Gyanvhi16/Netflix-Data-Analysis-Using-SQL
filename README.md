@@ -1,8 +1,10 @@
 # Netflix-Data-Analysis-Using-SQL
+
 ## Netflix Movies and TV Shows Data Analysis     
 
 
 ## Overview  
+
 This project focuses on an in-depth analysis of Netflix's movies and TV shows dataset using SQL. The aim is to derive meaningful insights and address key business questions, offering a clearer understanding of Netflix's content catalog. This README outlines the project’s objectives, challenges, approaches, findings, and conclusions.
 
 
@@ -25,6 +27,7 @@ This project focuses on an in-depth analysis of Netflix's movies and TV shows da
 
 ## Schema 
 
+```sql 
 CREATE TABLE Netflix
 (
   show_id  VARCHAR(6),
@@ -40,7 +43,7 @@ CREATE TABLE Netflix
   listed_in  VARCHAR(100),
   description  VARCHAR(250)
 );
-
+```
 
 ## Findings and Conclusion  
 
