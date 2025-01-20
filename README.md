@@ -1,5 +1,5 @@
 # Netflix-Data-Analysis-Using-SQL
-**Netflix Movies and TV Shows Data Analysis Using SQL**    
+## Netflix Movies and TV Shows Data Analysis     
 ---
 
 ## Overview  
@@ -7,7 +7,8 @@ This project focuses on an in-depth analysis of Netflix's movies and TV shows da
 
 ---
 
-## Objectives  
+## Objectives 
+
 1. Examine the distribution between content types (Movies vs. TV Shows).  
 2. Discover the most prevalent ratings across various categories of content.  
 3. Analyze content trends by release year, countries of origin, and durations.  
@@ -16,8 +17,41 @@ This project focuses on an in-depth analysis of Netflix's movies and TV shows da
 ---
 
 ## Dataset
+
  For this project, the dataset has been sourced from Kaggle :
  ####  Dataset link :
+
+ ---
+
+## Schema 
+
+CREATE TABLE netflix
+(
+    show_id      VARCHAR(5),
+    type         VARCHAR(10),
+    title        VARCHAR(250),
+    director     VARCHAR(550),
+    casts        VARCHAR(1050),
+    country      VARCHAR(550),
+    date_added   VARCHAR(55),
+    release_year INT,
+    rating       VARCHAR(15),
+    duration     VARCHAR(15),
+    listed_in    VARCHAR(250),
+    description  VARCHAR(550)
+);
+
+
+---
+
+## Findings and Conclusion  
+
+1. **Content Distribution**: The dataset showcases a wide variety of movies and TV shows spanning multiple genres and ratings.  
+2. **Popular Ratings**: Analysis of the most frequent ratings offers valuable insights into the target audience for Netflix's content.  
+3. **Geographical Insights**: The prominence of certain countries, such as India, and the average number of releases emphasize regional trends in content distribution.  
+4. **Content Categorization**: Organizing content based on specific keywords provides a clearer perspective on the types of content available on Netflix.
+   
+This analysis offers a detailed overview of Netflix's content, providing valuable insights to guide content strategy and decision-making.
 
 
 
