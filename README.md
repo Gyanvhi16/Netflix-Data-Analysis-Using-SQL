@@ -1,11 +1,11 @@
 # Netflix-Data-Analysis-Using-SQL
 ## Netflix Movies and TV Shows Data Analysis     
----
+
 
 ## Overview  
 This project focuses on an in-depth analysis of Netflix's movies and TV shows dataset using SQL. The aim is to derive meaningful insights and address key business questions, offering a clearer understanding of Netflix's content catalog. This README outlines the project’s objectives, challenges, approaches, findings, and conclusions.
 
----
+
 
 ## Objectives 
 
@@ -14,14 +14,14 @@ This project focuses on an in-depth analysis of Netflix's movies and TV shows da
 3. Analyze content trends by release year, countries of origin, and durations.  
 4. Investigate and classify content using specific attributes, themes, and keywords.
 
----
+
 
 ## Dataset
 
  For this project, the dataset has been sourced from Kaggle :
  ####  Dataset link :
 
- ---
+ 
 
 ## Schema 
 
@@ -42,7 +42,7 @@ CREATE TABLE netflix
 );
 
 
----
+
 
 ## Findings and Conclusion  
 
