@@ -45,6 +45,40 @@ CREATE TABLE Netflix
 );
 ```
 
+
+## Business Problem Analysis
+
+### 1. Count the number of Moves vs TV Shows
+
+SELECT * FROM Netflix;
+
+SELECT 
+    type,
+	COUNT(*)  AS total_content
+FROM Netflix
+GROUP BY type;
+
+
+### 2. Find the most common rating  for  movies and TV shows.
+
+SELECT
+     type,
+	 rating
+FROM 
+(
+   SELECT 
+       type,
+	   rating,
+	   count(*),
+	   RANK() OVER(PARTITION BY type ORDER BY COUNT(*) DESC)  AS Ranking
+   FROM Netflix
+   GROUP BY 1, 2
+) AS t1
+
+WHERE 
+      ranking = 1;
+
+
 ## Findings and Conclusion  
 
 1. **Content Distribution**: The dataset showcases a wide variety of movies and TV shows spanning multiple genres and ratings.  
