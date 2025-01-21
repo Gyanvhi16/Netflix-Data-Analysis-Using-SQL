@@ -50,17 +50,18 @@ CREATE TABLE Netflix
 
 ### 1. Count the number of Moves vs TV Shows
 
-SELECT * FROM Netflix;
-
+```sql
 SELECT 
     type,
 	COUNT(*)  AS total_content
 FROM Netflix
 GROUP BY type;
+```
 
 
 ### 2. Find the most common rating  for  movies and TV shows.
 
+```sql
 SELECT
      type,
 	 rating
@@ -77,6 +78,7 @@ FROM
 
 WHERE 
       ranking = 1;
+```
 
 
 ## Findings and Conclusion  
