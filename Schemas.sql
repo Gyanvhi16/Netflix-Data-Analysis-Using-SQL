@@ -1,5 +1,3 @@
-SCHEMAS of Netflix
-
 
 CREATE TABLE Netflix
 (
