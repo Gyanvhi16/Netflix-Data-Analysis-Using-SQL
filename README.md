@@ -48,7 +48,7 @@ CREATE TABLE Netflix
 
 ## Business Problem and their Objectives
 
-### 1. Count the number of Moves vs TV Shows
+### 1. Count the number of Movies vs TV Shows
 
 **Objective:** Determine the distribution of content types on Netflix.
 
